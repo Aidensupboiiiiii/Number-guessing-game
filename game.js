@@ -10,7 +10,7 @@ function TesterClicked(){
     BetaPrompt=prompt("enter your beta testing password given by aiden")
     
     if(BetaPrompt=="sd9f8712!3jk1238"){
-        document.body.style.backgroundColor=backgroundColor
+        document.body.style.backgroundColor=BackgroundColor
     }}
 function DevClicked(){
     if (devtrue){
