@@ -1,8 +1,17 @@
+const BackgroundColor="rgb(0, 0, 0)"
 let score=0
 let playagain
 let devpassword
 let devpassnum
 let devtrue
+let BetaPrompt
+let Betatrue = false
+function TesterClicked(){
+    BetaPrompt=prompt("enter your beta testing password given by aiden")
+    }
+    if(BetaPrompt=="sd9f8712!3jk1238"){
+        document.body.style.backgroundColor=backgroundColor
+    }
 function DevClicked(){
     if (devtrue){
         devtrue=false
