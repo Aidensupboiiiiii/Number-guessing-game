@@ -11,7 +11,8 @@ function TesterClicked(){
     
     if(BetaPrompt=="sd9f8712!3jk1238"){
         document.body.style.backgroundColor=BackgroundColor
-    }}
+    }
+}
 function DevClicked(){
     if (devtrue){
         devtrue=false
@@ -20,45 +21,45 @@ function DevClicked(){
     }
 }
 function game(){
-let randomnum=(Math.floor(Math.random()*100)+1);
-console.log(randomnum)
+    let randomnum=(Math.floor(Math.random()*100)+1);
+    console.log(randomnum)
 
-if(devtrue==true){
-   devpassword=prompt("enter your password given by aiden");
-   if (devpassword == "aidenc434"){
-    alert("the code is " + randomnum);
-   }else if(devpassword=="chey452"){
-    alert("the code is " + randomnum)
-   }
-}
+    if(devtrue==true){
+       devpassword=prompt("enter your password given by aiden");
+       if (devpassword == "aidenc434"){
+        alert("the code is " + randomnum);
+       }else if(devpassword=="chey452"){
+        alert("the code is " + randomnum)
+       }
+    }
 
-while(true){
-    let guess=prompt("guess the number");
-    if(guess === null){
-        alert("you canceled")
-        alert("the number was " + randomnum)
-        console.log("you scored " + score + " times")
-        break;
-    } else {
-        let int=parseInt(guess);
-        if(int == randomnum){
-            alert("You guessed correctly");
-            score+=1
-            alert("you have scored " + score + " times")
-           playagain=confirm("would you like to play again? Your score of " + score + " will reset if no.")
-           if(playagain==true){
-            game()
-           } else{
-            console.log("you scored "+score+" times")
-           }
+    while(true){
+        let guess=prompt("guess the number");
+        if(guess === null){
+            alert("you canceled")
+            alert("the number was " + randomnum)
+            console.log("you scored " + score + " times")
             break;
-        }
-        else if(int < randomnum){
-            alert("Higher, guess again");
-        }
-        else if(int > randomnum){
-            alert("Lower, guess again")
+        } else {
+            let int=parseInt(guess);
+            if(int == randomnum){
+                alert("You guessed correctly");
+                score+=1
+                alert("you have scored " + score + " times")
+               playagain=confirm("would you like to play again? Your score of " + score + " will reset if no.")
+               if(playagain==true){
+                game()
+               } else{
+                console.log("you scored "+score+" times")
+               }
+                break;
+            }
+            else if(int < randomnum){
+                alert("Higher, guess again");
+            }
+            else if(int > randomnum){
+                alert("Lower, guess again")
+            }
         }
     }
-}
 }
