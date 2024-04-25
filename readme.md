@@ -1,3 +1,9 @@
-This is my first game<br>
-i hope you enjoy and if you would like to become a dev for the game just dm me on discord<br>
-my discord is: direvr
+Updates Daily
+<br>
+Dm me for questions
+<br>
+Discord:direvr
+<br>
+Email:ajcoogs08@icloud.com
+<br>
+Github:@Aidensupboiiiiii
