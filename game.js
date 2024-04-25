@@ -1,4 +1,4 @@
-const BackgroundColor="rgb(0, 0, 0)"
+const BackgroundColor="#0099ff"
 let score=0
 let playagain
 let devpassword
