@@ -7,6 +7,11 @@ let devtrue
 let BetaPrompt
 let Betatrue = false
 let DevConst = true
+let DevPrompt = false
+function ShowTheCode(){
+    alert("the code is " + randomnum);
+        DevConst=false
+}
 function TesterClicked(){
     BetaPrompt=prompt("enter your beta testing password given by aiden")
     
@@ -27,9 +32,8 @@ function game(){
 
     if(devtrue==true, DevConst==true){
        devpassword=prompt("enter your password given by aiden");
-       if (devpassword == "aidenc434"){
-        alert("the code is " + randomnum);
-        DevConst=false
+       if (devpassword == "aidenc434", DevPrompt==true){
+        ShowTheCode
        }else if(devpassword=="chey452"){
         alert("the code is " + randomnum)
         DevConst=false
