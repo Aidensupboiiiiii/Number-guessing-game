@@ -12,7 +12,7 @@ v1.0.1 is the most recent version and is being updated daily so be sure to stay 
 
 ## Reporting a Vulnerability
 
-In order to report something just dm me on discord or email me
+In order to report something just dm me on discord or email me <br>
 Email: ajcoogs08@icloud.com
 <br>
 Discord: direvr
