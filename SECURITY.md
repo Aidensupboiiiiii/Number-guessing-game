@@ -7,9 +7,8 @@ v1.0.1 is the most recent version and is being updated daily so be sure to stay 
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.1   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.0.x   | :x:                |
+
 
 ## Reporting a Vulnerability
 
