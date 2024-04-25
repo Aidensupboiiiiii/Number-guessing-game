@@ -1,6 +1,7 @@
 #isdev{
     width:2em;
     height:2em;
+    padding: 20px;
 }
 #bigger{
     font-size: 2.5em;
@@ -11,14 +12,17 @@
     left:50%;
     transform:translate(-50%,-50%);
     text-align:center;
+    padding: 20px;
 }
 
 #gamestart{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
+    padding: 20px;
 }
 
 #BetaTester{
     font-family: 'Courier New', Courier, monospace;
     font-size: 200%;
+    padding: 20px;
 }
