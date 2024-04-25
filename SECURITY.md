@@ -7,7 +7,7 @@ v1.0.2 is the most recent version and is being updated daily so be sure to stay 
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.2  | :white_check_mark: |
-| <1.0.1   | :x:                |
+| <1.0.2   | :x:                |
 
 
 ## Reporting a Vulnerability
