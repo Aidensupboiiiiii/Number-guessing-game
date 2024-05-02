@@ -29,7 +29,7 @@ function game(){
     if(devtrue==true){
        devpassword=prompt("enter your password given by aiden");
        if (devpassword == "aidenc434", DevPrompt==true){
-        ShowTheCode
+        alert("the code is " + randomnum)
        }else if(devpassword=="chey452", DevPrompt==true){
         alert("the code is " + randomnum)
         
